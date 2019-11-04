@@ -8,4 +8,8 @@
     <item
         android:title="My Profile"
         android:id="@+id/menuProfile"/>
+
+    <item
+        android:title="Upload Image"
+        android:id="@+id/menuImage"/>
 </menu>

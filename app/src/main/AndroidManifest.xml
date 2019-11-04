@@ -12,7 +12,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Profile_Clubhead"></activity>
+        <activity android:name=".Goog_Signin"></activity>
+        <activity android:name=".Profile_Clubhead" />
         <activity android:name=".Profile_faculty" />
         <activity android:name=".ImageUpload" />
         <activity android:name=".Profile" />

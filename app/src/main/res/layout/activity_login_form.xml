@@ -65,15 +65,7 @@
         android:textColor="#ffffffff"
         android:layout_marginTop="40dp"
         android:background="@drawable/button_rounded"/>
-        <com.google.android.gms.common.internal.SignInButtonImpl
-            android:layout_width="match_parent"
-            android:layout_height="40dp"
-            android:text="Login with google"
-            android:id="@+id/google_login"
-            android:textSize="22sp"
-            android:textColor="#ffffffff"
-            android:layout_marginTop="20dp"
-            android:background="@drawable/button_rounded"/>
+
 
 
 

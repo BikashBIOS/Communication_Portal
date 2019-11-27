@@ -184,7 +184,7 @@ public class Signup_Clubhead extends AppCompatActivity {
                                                 .setValue(information).addOnCompleteListener(new OnCompleteListener<Void>() {
                                             @Override
                                             public void onComplete(@NonNull Task<Void> task) {
-                                                startActivity(new Intent(getApplicationContext(),MainActivity.class));
+                                                startActivity(new Intent(getApplicationContext(),Login_Clubhead.class));
                                                 Toast.makeText(Signup_Clubhead.this, "Registration Complete", Toast.LENGTH_SHORT).show();
                                             }
                                         });

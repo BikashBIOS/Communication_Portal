@@ -13,7 +13,10 @@
         android:id="@+id/imgchoose"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="CHOOSE FILE" />
+        android:text="CHOOSE FILE"
+        android:textSize="22sp"
+        android:textColor="#ffffffff"
+        android:background="@drawable/button_rounded"/>
 
     <EditText
         android:id="@+id/filename"
@@ -64,5 +67,8 @@
         android:layout_alignParentBottom="true"
         android:layout_marginStart="150dp"
         android:gravity="center"
+        android:textSize="20sp"
+        android:textColor="#ffffffff"
+        android:background="@drawable/button_rounded"
         android:text="UPLOAD" />
 </RelativeLayout>

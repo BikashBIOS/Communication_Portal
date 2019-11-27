@@ -182,7 +182,7 @@ public class Signup_Form extends AppCompatActivity {
                                                 .setValue(information).addOnCompleteListener(new OnCompleteListener<Void>() {
                                             @Override
                                             public void onComplete(@NonNull Task<Void> task) {
-                                                startActivity(new Intent(getApplicationContext(),MainActivity.class));
+                                                startActivity(new Intent(getApplicationContext(),Login_form.class));
                                                 Toast.makeText(Signup_Form.this, "Registration Complete", Toast.LENGTH_SHORT).show();
                                             }
                                         });

@@ -12,7 +12,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Goog_Signin"></activity>
+        <activity android:name=".UploadNotice"></activity>
+        <activity android:name=".ViewPDF" />
+        <activity android:name=".PdfUpload" />
+        <activity android:name=".Goog_Signin" />
         <activity android:name=".Profile_Clubhead" />
         <activity android:name=".Profile_faculty" />
         <activity android:name=".ImageUpload" />

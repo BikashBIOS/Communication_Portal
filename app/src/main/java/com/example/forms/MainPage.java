@@ -45,4 +45,7 @@ public class MainPage extends AppCompatActivity {
             }
         });
     }
+    /*private void func(){
+        startActivity(new Intent(MainPage.this,Profile.class));
+    }*/
 }

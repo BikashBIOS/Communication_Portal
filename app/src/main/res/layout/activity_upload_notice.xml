@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".UploadNotice">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/pdf"
+        android:layout_marginTop="40dp"/>
+    <Button
+        android:background="@drawable/button_rounded"
+        android:textColor="#ffffffff"
+        android:textSize="22sp"
+        android:layout_marginTop="20dp"
+        android:id="@+id/upPdf"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="Upload PDF" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/notice"
+        android:layout_marginTop="40dp"/>
+
+    <Button
+        android:background="@drawable/button_rounded"
+        android:textColor="#ffffffff"
+        android:textSize="22sp"
+        android:layout_marginTop="4dp"
+        android:id="@+id/upNotice"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="Upload Notice" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Proceed to Home Page"
+        android:id="@+id/homedir"
+        android:textAlignment="center"
+        android:textStyle="italic"
+        android:textColor="@color/colorAccent"
+        android:textSize="22sp"
+        android:layout_marginTop="50dp"/>
+</LinearLayout>

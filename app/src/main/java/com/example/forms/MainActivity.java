@@ -82,13 +82,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        FloatingActionButton button = findViewById(R.id.fab);
-        button.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
 
-            }
-        });
         firebaseAuth=FirebaseAuth.getInstance();
         firebaseDatabase=FirebaseDatabase.getInstance();
         firebaseStorage=FirebaseStorage.getInstance();
@@ -120,8 +114,8 @@ public class MainActivity extends AppCompatActivity {
                         Intent intent=new Intent(MainActivity.this,Profile.class);
                         startActivity(intent);
                         break;
-                case R.id.menuImage:
-                    Intent intent1=new Intent(MainActivity.this,ImageUpload.class);
+                case R.id.viewpdfs:
+                    Intent intent1=new Intent(MainActivity.this,ViewPDF.class);
                     startActivity(intent1);
 
 

@@ -168,7 +168,7 @@ public class Signup_Faculty extends AppCompatActivity {
                                                 .setValue(information).addOnCompleteListener(new OnCompleteListener<Void>() {
                                             @Override
                                             public void onComplete(@NonNull Task<Void> task) {
-                                                startActivity(new Intent(getApplicationContext(),MainActivity.class));
+                                                startActivity(new Intent(getApplicationContext(),Login_Faculty.class));
                                                 Toast.makeText(Signup_Faculty.this, "Registration Complete", Toast.LENGTH_SHORT).show();
                                             }
                                         });

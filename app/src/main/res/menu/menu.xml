@@ -10,6 +10,6 @@
         android:id="@+id/menuProfile"/>
 
     <item
-        android:title="Upload Image"
-        android:id="@+id/menuImage"/>
+        android:title="View PDFs"
+        android:id="@+id/viewpdfs"/>
 </menu>

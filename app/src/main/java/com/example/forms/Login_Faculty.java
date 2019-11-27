@@ -59,7 +59,7 @@ public class Login_Faculty extends AppCompatActivity {
                             @Override
                             public void onComplete(@NonNull Task<AuthResult> task) {
                                 if (task.isSuccessful()) {
-                                    startActivity(new Intent(getApplicationContext(),MainActivity.class));
+                                    startActivity(new Intent(getApplicationContext(),UploadNotice.class));
                                     Toast.makeText(Login_Faculty.this, "Login Successful", Toast.LENGTH_SHORT).show();
                                 } else {
                                     Toast.makeText(Login_Faculty.this, "Login Failed ", Toast.LENGTH_SHORT).show();
